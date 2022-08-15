@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/caiof27/api-manginhos-squadra-course/issues"
   },
-  "homepage": "https://github.com/caiof27/api-manginhos-squadra-course#readme"
+  "homepage": "https://github.com/caiof27/api-manginhos-squadra-course#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^4.1.3"
+  }
 }
