@@ -1,0 +1,20 @@
+{
+  "name": "api-manginhos-squadra-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiof27/api-manginhos-squadra-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiof27/api-manginhos-squadra-course/issues"
+  },
+  "homepage": "https://github.com/caiof27/api-manginhos-squadra-course#readme"
+}
