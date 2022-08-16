@@ -10,8 +10,6 @@
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --coverage"
-
-
   },
   "repository": {
     "type": "git",
@@ -25,6 +23,7 @@
   },
   "homepage": "https://github.com/caiof27/api-manginhos-squadra-course#readme",
   "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
     "@types/jest": "^28.1.6",
     "@types/node": "^18.7.4",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
@@ -46,6 +45,7 @@
   },
   "dependencies": {
     "@types/validator": "^13.7.5",
+    "bcrypt": "^5.0.1",
     "validator": "^13.7.0"
   }
 }
