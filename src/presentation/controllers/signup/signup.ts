@@ -6,7 +6,7 @@ import {
   EmailValidator,
 } from "./signup-protocols";
 import { MissingParamError, InvalidParamError } from "../../errors/index";
-import { AddAccount } from "../../../domain/usecases/add-account";
+import { AddAccount } from "../../../domain/usecases/addAccount/add-account";
 
 export class SignUpController implements Controller {
   private readonly emailValidator: EmailValidator;
