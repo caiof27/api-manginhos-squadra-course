@@ -23,8 +23,10 @@
   },
   "homepage": "https://github.com/caiof27/api-manginhos-squadra-course#readme",
   "devDependencies": {
+    "@shelf/jest-mongodb": "^4.0.0",
     "@types/bcrypt": "^5.0.0",
     "@types/jest": "^28.1.6",
+    "@types/mongodb": "^4.0.7",
     "@types/node": "^18.7.4",
     "@typescript-eslint/eslint-plugin": "^2.34.0",
     "eslint": "^6.8.0",
@@ -46,6 +48,7 @@
   "dependencies": {
     "@types/validator": "^13.7.5",
     "bcrypt": "^5.0.1",
+    "mongodb": "^3.7.2",
     "validator": "^13.7.0"
   }
 }
