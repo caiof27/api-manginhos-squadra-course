@@ -1,7 +1,8 @@
 export class ServerError extends Error {
-    constructor() {
+    constructor(stack: string) {
       super(`Interval Server Error`);
-      this.name = "MissingParamError";
+      this.name = "ServerError";
+      this.stack = stack;
     }
   }
   
