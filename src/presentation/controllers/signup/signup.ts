@@ -1,7 +1,7 @@
 import { badRequest, serverError, ok } from "../../helpers/http-helper";
 import {
-  httpRequest,
-  httpResponse,
+  HttpRequest,
+  HttpResponse,
   Controller,
   EmailValidator,
 } from "./signup-protocols";
@@ -16,7 +16,7 @@ export class SignUpController implements Controller {
     this.emailValidator = emailValidator;
     this.addAccount = addAccount;
   }
-  async handle(httpRequest: httpRequest): Promise<httpResponse> {
+  async handle(httpRequest: HttpRequest): Promise<HttpResponse> {
     try {
       const requireFields = [
         "name",
