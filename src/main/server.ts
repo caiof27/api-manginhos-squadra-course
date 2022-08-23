@@ -1,7 +1,9 @@
-import { MongoHelper } from "../infra/db/mongodb/helpers/mongo-helper";
 import env from "./config/env";
+import db from "../infra/db/postgres/models/index"
 
-MongoHelper.connect(env.mongoUrl)
+
+
+db.sequelize.sync()
   .then(async () => {
     const app = (await import("./config/app")).default;
     app.listen(env.port, () =>
