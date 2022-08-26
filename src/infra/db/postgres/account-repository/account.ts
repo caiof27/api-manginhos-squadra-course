@@ -4,7 +4,7 @@ import { AddAccountModel } from "../../../../domain/usecases/addAccount/add-acco
 import Account from "../models";
 
 
-export class AccountPostgresRepository implements AddAccountRepository {
+export class AccountMongoRepository implements AddAccountRepository {
   async add(accountData: AddAccountModel): Promise<AccountModel> {
     const result = await Account.Create(accountData);
     return result;
